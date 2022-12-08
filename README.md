@@ -50,7 +50,8 @@ Entity Relationship Diagram:
 
 SQL Design:
 
-'''
+···
+
 ·建立商家表
 CREATE TABLE `seller_info` (
   `seller_id` varchar(20) COLLATE utf8_bin NOT NULL,
@@ -177,4 +178,5 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `alter_seller_money`(IN user_id VARC
 BEGIN
 	update seller_info set seller_gain=amount WHERE seller_id=user_id;
 END
-'''
+
+···
