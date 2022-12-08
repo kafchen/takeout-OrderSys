@@ -50,7 +50,7 @@ Entity Relationship Diagram:
 
 SQL Design:
 
-···
+'''sql
 
 ·建立商家表
 CREATE TABLE `seller_info` (
@@ -179,4 +179,4 @@ BEGIN
 	update seller_info set seller_gain=amount WHERE seller_id=user_id;
 END
 
-···
+'''
